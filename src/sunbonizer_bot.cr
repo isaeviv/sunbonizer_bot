@@ -23,6 +23,6 @@ class SunbonizerBot < Tourmaline::Client
 end
 
 
-bot = SunbonizerBot.new(bot_token: ENV["API_KEY"])
+bot = SunbonizerBot.new(bot_token: ENV["BOT_TOKEN"])
 
 bot.poll
