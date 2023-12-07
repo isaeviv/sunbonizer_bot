@@ -1,0 +1,23 @@
+name: sunbonizer_bot
+version: 0.1.0
+
+authors:
+  - isaeviv <isaeviv@vivaldi.net>
+
+targets:
+  sunbonizer_bot:
+    main: src/sunbonizer_bot.cr
+
+dependencies:
+  tourmaline:
+    github: protoncr/tourmaline
+    branch: master
+  
+  sunbonizer:
+    github: isaeviv/sunbonizer
+    branch: main
+
+
+crystal: 1.7.3
+
+license: MIT
